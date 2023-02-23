@@ -1,0 +1,71 @@
+//Import File 
+@use "./Helpers/Variblies.scss" as *;
+
+//Rules
+
+@mixin btnMain($color) {
+    color: $color;
+    font-size: $Font-size;
+    outline: none;
+    border: 1px solid $Transparent-white;
+    background-color: $Transparent-white;
+    transition: all 1s;
+    &:hover{
+        color: $Transparent-white;
+        background-color: transparent;
+    }
+    &:focus{
+        outline: none;
+        border: none;
+    }
+}
+
+body{
+    background-color: $Very-light-gray;
+    #card{
+        background-color: $Very-light-gray;
+        .block{
+            width: 375px;
+            gap: 10px;
+            .txt{
+                h2{
+                    color: $Very-light-gray;
+                }
+                p{
+                    font-size: $Font-size;
+                    color: $Transparent-white;
+                }
+            }
+        }
+    }
+}
+
+.btn{
+    .btnMainOrg{
+        @include btnMain($Bright-orange);
+    }
+}
+
+.btn{
+    .btnMainCyn{
+        @include btnMain($Dark-cyan);
+    }
+}
+
+.btn{
+    .btnMainDcyn{
+        @include btnMain($Very-dark-cyan);
+    }
+}
+
+.orange{
+    background-color: $Bright-orange;
+}
+
+.cyan{
+    background-color: $Dark-cyan;
+}
+
+.veryDarkCyan{
+    background-color: $Very-dark-cyan;
+}
