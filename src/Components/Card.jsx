@@ -7,64 +7,64 @@ export default function Card() {
   return (
     <>
     <section id="card" className='vh-100'>
-        <div className="container py-5">
+        <main className="container py-5">
             <div className="cardBox d-flex align-items-center justify-content-center flex-lg-row flex-md-column flex-sm-column flex-column h-100">
                 <div className="block orange p-5 d-flex flex-column">
-                    <div className="img">
-                        <img src={pic_2} alt="pic-1" className='w-25' />
+                    <div className="img ms-5">
+                        <img src={pic_2} alt="" className='w-25' />
                     </div>
                     <div className="txt mb-2">
-                        <h2 className='my-3'>SEDANS</h2>
-                        <p>
-                            Choose a sedan for its <br/>
-                            affordability and excellent <br/>
-                            fuel economy. Ideal for <br/>
-                            cruising in the city or on <br/>
+                        <h2 className='my-3 ps-5'>SEDANS</h2>
+                        <p className='p-5'>
+                            Choose a sedan for its 
+                            affordability and excellent 
+                            fuel economy. Ideal for 
+                            cruising in the city or on 
                             your next road trip. 
                         </p>
                     </div>
-                    <div className="btn align-self-start">
-                        <button className='btnMainOrg px-3 p-2 rounded-pill'>Learn More</button>
+                    <div className="btn align-self-start ms-4">
+                        <a href='' className='btnMainOrg px-3 p-2 rounded-pill'>Learn More</a>
                     </div>
                 </div>
                 <div className="block cyan p-5 d-flex flex-column">
-                    <div className="img">
-                        <img src={pic_3} alt="pic-2" className='w-25' />
+                    <div className="img ms-5">
+                        <img src={pic_3} alt="" className='w-25' />
                     </div>
                     <div className="txt mb-2">
-                        <h2 className='my-3'>SUVS</h2>
-                        <p>
-                            Take an SUV for it's spacious<br/>
-                            interior, power, and<br/>
-                            versatility. Perfect for your<br/>
-                            next family vacation and<br/>
+                        <h2 className='my-3 ps-5'>SUVS</h2>
+                        <p className='p-5'> 
+                            Take an SUV for it's spacious
+                            interior, power, and
+                            versatility. Perfect for your
+                            next family vacation and
                             off-road adventures. 
                         </p>
                     </div>
-                    <div className="btn align-self-start">
-                        <button className='btnMainCyn px-3 p-2 rounded-pill'>Learn More</button>
+                    <div className="btn align-self-start ms-4">
+                        <a href='' className='btnMainCyn px-3 p-2 rounded-pill'>Learn More</a>
                     </div>
                 </div>
                 <div className="block veryDarkCyan p-5 d-flex flex-column">
-                    <div className="img">
-                        <img src={pic_1} alt="pic-3" className='w-25' />
+                    <div className="img ms-5">
+                        <img src={pic_1} alt="" className='w-25' />
                     </div>
                     <div className="txt mb-2">
-                        <h2 className='my-3'>LUXURY</h2>
-                        <p>
-                            Cruise in the best cars brands<br/>
-                            without the bloated prices.<br/>
-                            Enjoy the enhanced comfort<br/>
-                            of luxury rental and arrive<br/>
+                        <h2 className='my-1 ps-5'>LUXURY</h2>
+                        <p className='p-5'>
+                            Cruise in the best cars brands
+                            without the bloated prices.
+                            Enjoy the enhanced comfort
+                            of luxury rental and arrive
                             in style. 
                         </p>
                     </div>
-                    <div className="btn align-self-start">
-                        <button className='btnMainDcyn px-3 p-2 rounded-pill'>Learn More</button>
+                    <div className="btn align-self-start ms-4">
+                        <a href='' className='btnMainDcyn px-3 p-2 rounded-pill'>Learn More</a>
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
     </section>
     </>
   )

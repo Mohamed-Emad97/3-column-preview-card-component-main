@@ -7,6 +7,7 @@
     color: $color;
     font-size: $Font-size;
     outline: none;
+    text-decoration: none;
     border: 1px solid $Transparent-white;
     background-color: $Transparent-white;
     transition: all 1s;
@@ -33,6 +34,7 @@ body{
                 }
                 p{
                     font-size: $Font-size;
+                    letter-spacing: .6;
                     color: $Transparent-white;
                 }
             }
